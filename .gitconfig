@@ -1,0 +1,19 @@
+[credential]
+	helper = store
+[user]
+	email = pbadzuh@uncc.edu
+	name = UnexceptedSpectic
+
+[alias]
+	ls = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate -10
+	d = difftool
+[core]
+	editor = vim
+	pager = vim -
+
+# use with: git d
+[diff]
+	tool = vimdiff
+[difftool]
+	prompt = false
+
